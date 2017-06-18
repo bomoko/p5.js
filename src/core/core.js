@@ -223,7 +223,7 @@ var p5 = function(sketch, node, sync) {
     if (userPreload) {
 
       // Setup loading screen
-      // Set loading scfeen into dom if not present
+      // Set loading screen into dom if not present
       // Otherwise displays and removes user provided loading screen
       var loadingScreen = document.getElementById(this._loadingScreenId);
       if(!loadingScreen){
